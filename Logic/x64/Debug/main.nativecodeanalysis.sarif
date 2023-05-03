@@ -1,0 +1,343 @@
+{
+  "version": "2.1.0",
+  "$schema": "https://schemastore.azurewebsites.net/schemas/json/sarif-2.1.0-rtm.5.json",
+  "runs": [
+    {
+      "results": [
+        {
+          "ruleId": "C6385",
+          "message": {
+            "text": "Чтение недопустимых данных из \"narushenie\"."
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///C:/Programming/C++/C++_Code/Logic/Logic/main.cpp"
+                },
+                "region": {
+                  "startLine": 29,
+                  "startColumn": 3,
+                  "endLine": 29,
+                  "endColumn": 62
+                }
+              },
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "main",
+                  "decoratedName": "main",
+                  "kind": "function"
+                }
+              ]
+            }
+          ],
+          "codeFlows": [
+            {
+              "threadFlows": [
+                {
+                  "locations": [
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Programming/C++/C++_Code/Logic/Logic/main.cpp"
+                          },
+                          "region": {
+                            "startLine": 6,
+                            "startColumn": 11
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Programming/C++/C++_Code/Logic/Logic/main.cpp"
+                          },
+                          "region": {
+                            "startLine": 7,
+                            "startColumn": 9
+                          }
+                        },
+                        "message": {
+                          "text": "\"narushenie\" является массивом из 5 элементов (200 байт)"
+                        }
+                      },
+                      "kinds": [
+                        "declaration"
+                      ],
+                      "importance": "essential"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Programming/C++/C++_Code/Logic/Logic/main.cpp"
+                          },
+                          "region": {
+                            "startLine": 8,
+                            "startColumn": 6
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Programming/C++/C++_Code/Logic/Logic/main.cpp"
+                          },
+                          "region": {
+                            "startLine": 9,
+                            "startColumn": 6
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Programming/C++/C++_Code/Logic/Logic/main.cpp"
+                          },
+                          "region": {
+                            "startLine": 9,
+                            "startColumn": 9
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Programming/C++/C++_Code/Logic/Logic/main.cpp"
+                          },
+                          "region": {
+                            "startLine": 11,
+                            "startColumn": 85
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Programming/C++/C++_Code/Logic/Logic/main.cpp"
+                          },
+                          "region": {
+                            "startLine": 12,
+                            "startColumn": 6
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Programming/C++/C++_Code/Logic/Logic/main.cpp"
+                          },
+                          "region": {
+                            "startLine": 13,
+                            "startColumn": 8
+                          }
+                        },
+                        "message": {
+                          "text": "Пропустить эту ветвь (предполагается, что \"n==0\" равно false)"
+                        }
+                      },
+                      "kinds": [
+                        "branch"
+                      ],
+                      "importance": "important"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Programming/C++/C++_Code/Logic/Logic/main.cpp"
+                          },
+                          "region": {
+                            "startLine": 19,
+                            "startColumn": 47
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Programming/C++/C++_Code/Logic/Logic/main.cpp"
+                          },
+                          "region": {
+                            "startLine": 20,
+                            "startColumn": 6
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Programming/C++/C++_Code/Logic/Logic/main.cpp"
+                          },
+                          "region": {
+                            "startLine": 21,
+                            "startColumn": 8
+                          }
+                        },
+                        "message": {
+                          "text": "Пропустить эту ветвь (предполагается, что \"n==0\" равно false)"
+                        }
+                      },
+                      "kinds": [
+                        "branch"
+                      ],
+                      "importance": "important"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Programming/C++/C++_Code/Logic/Logic/main.cpp"
+                          },
+                          "region": {
+                            "startLine": 27,
+                            "startColumn": 11
+                          }
+                        },
+                        "message": {
+                          "text": "\"i\" равно NULL"
+                        }
+                      },
+                      "kinds": [
+                        "declaration"
+                      ],
+                      "importance": "essential"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Programming/C++/C++_Code/Logic/Logic/main.cpp"
+                          },
+                          "region": {
+                            "startLine": 27,
+                            "startColumn": 20
+                          }
+                        },
+                        "message": {
+                          "text": "Войти в этот цикл (предполагается \"i<=size\")"
+                        }
+                      },
+                      "kinds": [
+                        "branch"
+                      ],
+                      "importance": "important"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Programming/C++/C++_Code/Logic/Logic/main.cpp"
+                          },
+                          "region": {
+                            "startLine": 29,
+                            "startColumn": 59
+                          }
+                        },
+                        "message": {
+                          "text": "\"narushenie\" является выходными данными из \"std::<<\" (объявлено в c:\\program files\\microsoft visual studio\\2022\\community\\vc\\tools\\msvc\\14.35.32215\\include\\xstring:5366)"
+                        }
+                      },
+                      "kinds": [
+                        "declaration"
+                      ],
+                      "importance": "important"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Programming/C++/C++_Code/Logic/Logic/main.cpp"
+                          },
+                          "region": {
+                            "startLine": 29,
+                            "startColumn": 59
+                          }
+                        },
+                        "message": {
+                          "text": "Недопустимая операция чтения из \"narushenie[6]\" (доступный для чтения диапазон: от 0 до 4)"
+                        }
+                      },
+                      "kinds": [
+                        "usage"
+                      ],
+                      "importance": "essential"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ],
+      "tool": {
+        "driver": {
+          "name": "PREfast",
+          "fullName": "PREfast Code Analysis",
+          "version": "14.35.32216.1",
+          "informationUri": "https://aka.ms/cpp/ca"
+        }
+      },
+      "invocations": [
+        {
+          "executionSuccessful": true
+        }
+      ],
+      "artifacts": [
+        {
+          "location": {
+            "uri": "file:///C:/Programming/C++/C++_Code/Logic/Logic/main.cpp"
+          },
+          "roles": [
+            "analysisTarget",
+            "resultFile"
+          ],
+          "hashes": {
+            "sha-256": "a241c2d0dcd1216524350201d7e6e22c86ef0dc74bb70ab30410300495558b54"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/programming/c++/c++_code/logic/logic/book.h"
+          },
+          "hashes": {
+            "sha-256": "e3d991d54e42ac7ae63c8d3fd9b29194f8fef4980d64d06932818ed5f4cadf3f"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/programming/c++/c++_code/logic/logic/prototip.h"
+          },
+          "hashes": {
+            "sha-256": "aecb9819eb04bf5ad6cd2535cfac9b1bed5ef7946e551eff2224759862e16294"
+          }
+        }
+      ]
+    }
+  ]
+}
